@@ -7,34 +7,7 @@
 //! This crate serves as a HAL (Hardware Abstraction Layer) for the Raspberry Pi Pico Clock Green. Since it is based on the Raspberry Pi Pico
 //! which is based on the RP2040 chip, it re-exports the [rp2040_hal] crate which contains the tooling to work with the
 //! rp2040 chip.
-//!
-//! # Examples:
-//!
-//! The following example turns on the onboard LED. Note that most of the logic works through the [rp2040_hal] crate.
-//! ```ignore
-//! #![no_main]
-//! use rp_pico::entry;
-//! use panic_halt as _;
-//! use embedded_hal::digital::v2::OutputPin;
-//! use rp_pico::hal::pac;
-//! use rp_pico::hal;
-
-//! #[entry]
-//! fn does_not_have_to_be_main() -> ! {
-//!   let mut pac = pac::Peripherals::take().unwrap();
-//!   let sio = hal::Sio::new(pac.SIO);
-//!   let pins = rp_pico::Pins::new(
-//!        pac.IO_BANK0,
-//!        pac.PADS_BANK0,
-//!        sio.gpio_bank0,
-//!        &mut pac.RESETS,
-//!   );
-//!   let mut led_pin = pins.led.into_push_pull_output();
-//!   led_pin.set_high().unwrap();
-//!   loop {
-//!   }
-//! }
-//! ```
+//
 
 pub extern crate rp2040_hal as hal;
 
