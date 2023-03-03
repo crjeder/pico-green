@@ -102,7 +102,7 @@ hal::bsp_pins!(
 
     /// GPIO 2 supports following functions:
     ///
-    /// green: K2
+    /// green: K2 // stimmt need! der rp2040 steht auf dem kopf!
     /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|

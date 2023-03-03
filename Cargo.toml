@@ -14,6 +14,7 @@ description = "Board Support Package for the Raspberry Pi Pico Clock Green"
 [dependencies]
 # rp-pico = "0.7.0"
 rp2040-hal = "0.8.0"
+# embedded-graphics = "0.7.1"
 
 # [dev-dependencies]
 
