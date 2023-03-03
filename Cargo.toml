@@ -12,11 +12,12 @@ description = "Board Support Package for the Raspberry Pi Pico Clock Green"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rp-pico = "0.7.0"
+# rp-pico = "0.7.0"
+rp2040-hal = "0.8.0"
 
-[dev-dependencies]
+# [dev-dependencies]
 
-[features]
+# [features]
 
-[[example]]
+# [[example]]
 

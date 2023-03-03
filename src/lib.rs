@@ -102,6 +102,8 @@ hal::bsp_pins!(
 
     /// GPIO 2 supports following functions:
     ///
+    /// green: K2
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI0 SCK`   | [crate::Gp2Spi0Sck]         |
@@ -130,6 +132,8 @@ hal::bsp_pins!(
 
     /// GPIO 3 supports following functions:
     ///
+    /// green: SQW
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI0 TX`    | [crate::Gp3Spi0Tx]          |
@@ -214,6 +218,8 @@ hal::bsp_pins!(
 
     /// GPIO 6 supports following functions:
     ///
+    /// green: SDA
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI0 SCK`   | [crate::Gp6Spi0Sck]         |
@@ -242,6 +248,8 @@ hal::bsp_pins!(
 
     /// GPIO 7 supports following functions:
     ///
+    /// green: SCL
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI0 TX`    | [crate::Gp7Spi0Tx]          |
@@ -326,6 +334,8 @@ hal::bsp_pins!(
 
     /// GPIO 10 supports following functions:
     ///
+    /// green: CLK
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI1 SCK`   | [crate::Gp10Spi1Sck]        |
@@ -354,6 +364,8 @@ hal::bsp_pins!(
 
     /// GPIO 11 supports following functions:
     ///
+    /// green: SDI
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI1 TX`    | [crate::Gp11Spi1Tx]         |
@@ -382,6 +394,8 @@ hal::bsp_pins!(
 
     /// GPIO 12 supports following functions:
     ///
+    /// green: LE
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI1 RX`    | [crate::Gp12Spi1Rx]         |
@@ -410,6 +424,8 @@ hal::bsp_pins!(
 
     /// GPIO 13 supports following functions:
     ///
+    /// green: OE
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI1 CSn`   | [crate::Gp13Spi1Csn]        |
@@ -437,6 +453,8 @@ hal::bsp_pins!(
     },
 
     /// GPIO 14 supports following functions:
+    /// 
+    /// green: BUZZ
     ///
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
@@ -465,6 +483,8 @@ hal::bsp_pins!(
     },
 
     /// GPIO 15 supports following functions:
+    /// 
+    /// green: K0
     ///
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
@@ -494,6 +514,8 @@ hal::bsp_pins!(
 
     /// GPIO 16 supports following functions:
     ///
+    /// green: A0
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI0 RX`    | [crate::Gp16Spi0Rx]         |
@@ -522,6 +544,8 @@ hal::bsp_pins!(
 
     /// GPIO 17 supports following functions:
     ///
+    /// green: K1
+    /// 
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
     /// | `SPI0 CSn`   | [crate::Gp17Spi0Csn]        |
@@ -549,6 +573,8 @@ hal::bsp_pins!(
     },
 
     /// GPIO 18 supports following functions:
+    /// 
+    /// green: A1
     ///
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
@@ -661,6 +687,8 @@ hal::bsp_pins!(
     },
 
     /// GPIO 22 supports following functions:
+    /// 
+    /// green: A2
     ///
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
@@ -704,6 +732,8 @@ hal::bsp_pins!(
     },
 
     /// GPIO 26 supports following functions:
+    /// 
+    /// green: AIN
     ///
     /// | Function     | Alias with applied function |
     /// |--------------|-----------------------------|
