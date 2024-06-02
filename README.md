@@ -12,3 +12,4 @@ Rust Firmware for the Pico-Clock-Green
 
 [Library for the (hopefully) compatible TLC59xx](https://github.com/2splat/arduino-TLC5926), [rust](https://github.com/KyleCharters/tlc59xxx)
 
+[Blog Part 1](https://www.unshiu.com/posts/pico-green-clock-part-1/)
