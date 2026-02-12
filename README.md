@@ -10,3 +10,4 @@ Rust Firmware for the Pico-Clock-Green
 - [Blog Part 1](https://www.unshiu.com/posts/pico-green-clock-part-1/)
 - [Rust implementation](https://github.com/domneedham/pico-clock-green-rs)
 - [Alternative Rust implementation](https://github.com/jgroman/rp2040-pio-ws19695-led-display)
+- [Machbarkeit](https://github.com/crjeder/pico-green/blob/main/machbarkeit.md)
